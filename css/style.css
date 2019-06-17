@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway',sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p{
+    font-size: 14px;  
+}
+
+/* === navbar ===*/
+
+.header{
+    background-color: #A51C30;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: -20px;
+}
+.header_overlay{
+    background-color: rgba(31,31,31,.55);
+}
+.header_link ul{
+    list-style: none;
+}
+
+.header_name h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.header_spn{
+    color: #106470;
+}
+
+.header_link{
+    margin-top: 35px;
+}
+
+.link_item li i{
+   margin-right: 8px; 
+}
+.link_item li a{
+    font-size: 20px;
+    color: #fff;
+}
+
+/*===  slider css ===*/
+
+
+.event_car{
+    height: 450px;
+}
+
+.event_car .item_ev{
+    height: 450px;
+}
+
+.carousel-inner .item_ev> a>img{
+    min-width: 100%;
+    height: 450px;
+}
+
+
+.carousel-caption h2{
+    margin-top: 28px;
+    background-color: #777;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center
+}
+
+
+/*=== Generic css to about us title ===*/
+
+.about_title{
+    padding: 90px; 
+}
+
+
+.about_title h1{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #A51C30;
+}
+
+.about_title p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 40px;
+    color: #5B1E27;
+}
+
+/* === about us section css === */
+
+.dept_cse{
+    padding-top: 30px;
+}
+
+.dept_img img{
+    margin-top: 8px;
+    width: 100%;
+}
+
+/* === css for dept of cse section === */
+
+.choose_us_title{
+    news_overlay
+}
+
+.choose_us_title h2{
+    position: relative;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.choose_us_title h2:after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 220px;
+    height: 4px;
+    background-color: #129CF3;
+}
+
+.choose_us_title p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+
+/*=== news section css == */
+
+.news_overlay{
+    background-color: #002147;
+}
+
+.news_page{
+    margin-left: 45px;
+    margin-right: 35px;
+}
+
+.nws_cap img{
+  height: 350px;
+  width: 550px;
+}
+
+.news_title h1{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box{
+    background-color: #fff;
+    padding: 40px 50px;
+    margin-bottom: 50px;
+}
+
+.news_caption h3{
+     position: relative;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+.news_caption p{
+    margin-top: 20px;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: justify;
+    color: #777;
+}
+
+
+.btn_news{
+    background-color: #333;
+    color: #fff;
+     margin-top:15px;
+     padding: 10px;
+}
+
+.btn_news:hover{
+    background-color: #123CF9;
+    color: #fff;
+}
+
+/*=== news section css == */
+
+.events_overlay{
+    background-color: #E0DED9;
+}
+.events_title h1{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.events{
+    margin-bottom: 20px;
+}
+.events img{
+    padding-top: 10px;
+}
+
+.events_caption h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.events_caption p{
+    font-size: 18px;
+    padding: 20px;
+    line-height: 28px;
+    font-style: oblique;
+    color: #333;
+    text-align: justify;
+}
+
+.btn_events{
+     background-color: #333;
+    color: #fff;
+     padding: 10px;
+    
+}
+
+.btn_events:hover{
+    background-color: #123CF9;
+    color: #fff;
+}
+
+/*=== faculty member info css ==*/
+
+.faculty{
+    background-color: #777;
+    height: 520px;
+}
+.faculty_overlay{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.fact-indi{
+    bottom: -20px;
+}
+
+.faculty_title h1{
+     position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.carousel-inner> .fac-item> img{
+    border: 2px solid #129CF3;
+    border-radius: 50%;
+    padding: 5px;
+    width: 250px;
+}
+
+.teacher_caption h2{
+    color: #22244B;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.teacher_caption h4{
+    color: #22244B;
+    font-size: 26px;
+    
+}
+
+.teacher_caption p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/*=== counter css ===*/
+
+.counter{
+    background-color: #546E7A;
+}
+
+.counter-overlay{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.counter_title h1{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.counter-item i{
+    color: #129CF3;
+    font-size: 60px;
+}
+
+
+.counter-item h2{
+    font-family: "Souce Sans Pro",sans-serif;
+    color: #5B1E27;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.counter-item p{
+    font-family: "Souce Sans Pro",sans-serif;
+    color: #5B1E27;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top:0px;
+}
+
+
+/*=== follow us css ===*/
+
+.available-on {
+    
+    background-color: #1a1a1a;
+    margin-top: -8px;
+    position: relative;
+}
+.available-title {
+    padding-top: 75px;
+}
+.available-title h2 {
+    
+    font-family: "Souce Sans Pro",sans-serif;
+    color: #5B1E27;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.available-on-item {
+    text-align: center;
+    border-left: 1px solid #0F1217;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.available-on-item:hover {
+    background-color: #121212;
+}
+.available-on-item i {
+    color: #129CF3;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.available-on-item:hover i {
+    opacity: 0;
+}
+.available-on-inner {
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.available-on-inner h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:  500;
+    color: #D7DADB;
+    font-size: 26px;
+}
+
+.available-on-item:hover div.available-on-inner {
+    opacity: 1;
+}
+
+
+/*=== sign up ===*/
+
+.sign_up {
+    padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.register_form{
+   margin-bottom: 30px;
+}
+
+.sign_up .form-control{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px !importent;
+    transition: all 1s;   
+}
+
+.submit-btn{
+    background-color: transparent;
+    border: 1px solid #129CF3;
+    border-radius: 4px;
+    width: 40%;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:  #129CF3;
+    outline: 0px !importent;
+    transition: all 1s;
+    margin-right: 78px;
+}
+
+.submit-btn:hover{
+    background-color: #139CF3;
+    color: #fff;
+    border-color: #129CF3;
+}
+
+.log-btn{
+     background-color: transparent;
+    border: 1px solid #129CF3;
+    border-radius: 4px;
+    width: 45%;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:  #129CF3;
+    outline: 0px !importent;
+    transition: all 1s;
+}
+
+.log-btn:hover{
+    background-color: #139CF3;
+    color: #fff;
+    border-color: #129CF3;
+}
+
+.form_pic img{
+    margin-top: 28px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/*=== log in ===*/
+
+.login{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.log_img img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.log_title h2{
+    color: #5B1E27;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.log-info .form-control{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px !importent;
+    transition: all 1s;   
+}
+
+.log-bton{
+    background-color: transparent;
+    border: 1px solid #129CF3;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:  #129CF3;
+    outline: 0px !importent;
+    transition: all 1s;
+}
+
+.log-bton:hover{
+    background-color: #139CF3;
+    color: #fff;
+    border-color: #129CF3;
+}
+
+.log_lnk{
+    padding-top: 15px;
+}
+
+.creat_acc{
+    margin-top: 35px;
+}
+
+/*===footer sectio ===*/
+.foter{
+    background-color: #28828A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foter_item{
+   color: #fff;
+   font-family: "Souce Sans Pro",sans-serif;
+}
+
+.foter_item h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.foter_item .fot_h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+     color: #fff;
+}
+
+.foter_item  p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.foter_lnk{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.foter_item i{
+    
+    margin-right: 8px;
+}
+
+.foter_item a{
+   
+    font-size: 20px;
+    color: #fff;
+    font-size: 20px;
+   
+}
+
+.hr_cls{
+    border: 3px solid #121212;
+}
+
+#copyright{
+    width: 50%;
+    margin-top: -12px;
+}
+
+#copyright p{
+    color: #8C8BBA;;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.copy_sp{
+    color: #fff;
+    text-transform: none;
+}
+.scrol_top {
+    text-align: right;
+}
+
+.scrol_top a{
+    background-color: #777;
+    padding: 26px;
+}
+.scrol_top a i{
+      color: #129CF3;
+    font-size: 30px;
+}
+
+
+/*=== feature css ===*/
+.feature_car{
+    height: 550px;
+    margin-top: -20px;
+}
+
+.feature_car .feature_item{
+    height: 550px;
+}
+
+.carousel-inner .feature_item> img{
+    min-width: 100%;
+    height: 550px;
+}
+
+.videos_overlay{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgba(31,31,31,.75);
+}
+
+.vid_frame2{
+    margin-top: 65px
+}
+
+
+/*==== student information css===*/
+
+.students_overlat{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.student_img{
+    border: 2px solid #129CF3;
+}
+
+
+/*=== news full section ===*/
+
+.nws_cap h2{
+   padding-top: 15px;
+   padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nws_cap img{
+    min-width: 50%;
+}
+
+.nws_p p{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.lates_news{
+    margin-left: 35px;
+}
+
+.teacher{
+    padding: 30px 40px;
+}
+
+
+.semester_title h2{
+    text-transform: uppercase;
+}
+
+.semester_title li{
+    list-style: none;
+}
+
+.semester_title li a{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
